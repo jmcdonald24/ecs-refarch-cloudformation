@@ -55,6 +55,7 @@ Resources:
             Statement:
               - Effect: Allow
                 Action:
+                  - "s3:*"
                   - "autoscaling:CompleteLifecycleAction"
                   - "logs:CreateLogGroup"
                   - "logs:CreateLogStream"
