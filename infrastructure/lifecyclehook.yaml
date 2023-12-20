@@ -4,9 +4,11 @@ Parameters:
   Cluster:
     Type: String
     Description: Name of ECS Cluster
+    Default: TestCluster
   ECSAutoScalingGroupName:
     Type: String
     Description: Name of Auto Scaling Group
+    Default: TestASGName
 Resources:
   NotificationTopic:
     Type: "AWS::SNS::Topic"
